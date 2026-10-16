@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "orca_client",
+  "version": "${version}",
+  "name": "Orca Client",
+  "description": "A configurable client-side utility mod with an in-game module menu.",
+  "authors": ["Orca Client contributors"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.orca.client.OrcaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
